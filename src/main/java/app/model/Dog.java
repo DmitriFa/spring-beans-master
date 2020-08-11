@@ -7,9 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 @Primary
 public class Dog extends Animal{
-
-  //  @Autowired
-  //  private Animal animal;
+  
   @Autowired
   private  Timer timer;
 

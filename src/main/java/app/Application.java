@@ -20,14 +20,8 @@ public class Application {
                     applicationContext.getBean(AnimalsCage.class);
             bean.whatAnimalSay();
 
-
         }
-      /*   AnimalsCage bean =
-                applicationContext.getBean(AnimalsCage.class);
-        bean.whatAnimalSay();
-     Dog bean1 =
-              applicationContext.getBean(Dog.class);
-      bean1.toString();*/
+
     }
 
 }

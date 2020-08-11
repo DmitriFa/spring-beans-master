@@ -12,5 +12,5 @@ import org.springframework.context.annotation.Scope;
 @ComponentScan(basePackages = "app")
 public class AppConfig {
 
- 
+
 }
