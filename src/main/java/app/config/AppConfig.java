@@ -12,21 +12,5 @@ import org.springframework.context.annotation.Scope;
 @ComponentScan(basePackages = "app")
 public class AppConfig {
 
- /*  @Bean(name = "dog")
-    public void Dog() {
-        Dog dog = new Dog();
-        dog.toString();
-    }
-
-     @Bean(name = "cat")
-    public void Cat() {
-        Cat cat = new Cat();
-        cat.toString();
-    }
-
-    @Bean(name = "timer")
-    public void getTimer() {
-        Timer timer = new Timer();
-        timer.getTime();
-    }*/
+ 
 }
