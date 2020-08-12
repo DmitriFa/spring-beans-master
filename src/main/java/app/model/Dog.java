@@ -1,15 +1,13 @@
 package app.model;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
-@Component
-@Primary
-public class Dog extends Animal{
-  
-  @Autowired
-  private  Timer timer;
+@Component("dog")
+public class Dog extends Animal {
+
 
     @Override
     public String toString() {

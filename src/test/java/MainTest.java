@@ -12,7 +12,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 @ContextConfiguration(classes = AppConfig.class)
 public class MainTest {
 
-   @Autowired
+    @Autowired
     private ApplicationContext applicationContext;
 
     @Test
@@ -22,7 +22,7 @@ public class MainTest {
             AnimalsCage bean =
                     applicationContext.getBean(AnimalsCage.class);
             if (i == 0) {
-               time = bean.getTimer().getTime();
+                time = bean.getTimer().getTime();
                 continue;
             }
             Assert.assertEquals("Тест провален, не корректная реализация бинов.", time, bean.getTimer().getTime().longValue());
